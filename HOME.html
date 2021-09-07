@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Website</title>
+    <style>
+        @viewport{
+            zoom: 1.0;
+            width: exend-to-zoom;
+        }
+        @-ms-viewport{
+            zoom: 1;
+            width: extend-to-zoom;
+        }
+        .class1 {
+            width: 110px;
+            height: 109px;
+            color: rgb(180, 166, 166);
+            display: inline;
+            position: absolute;
+            left: 8px;
+            top: 11px;
+            font-size: 23px;
+            font-weight: bold;
+        }
+
+        .class1 img {
+            width: 110px;
+            border-radius: 4px;
+            height: 89px;
+        }
+
+        .class2 {
+            border: 4px solid white;
+            position: absolute;
+            right: 3px;
+            top: 11px;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+
+        }
+
+        .navbar li a {
+            color: white;
+            margin: 29px;
+            padding-right: 12px;
+            text-decoration: none;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            color: rgb(139, 128, 111);
+            text-decoration: underline;
+        }
+
+        .add {
+            background-color: tomato;
+            padding: 5px;
+        }
+
+        .class3 {
+            text-align: center;
+            position: absolute;
+            left: 403px;
+            top: 233px;
+            width:575px;
+            height: 233px;
+            font-size: 33px;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+        }
+
+        #id1{
+            font-size: 20px;
+            color: burlywood;
+        }
+       .last a{  
+            font-size: 16px;
+            background-color: rgb(221, 181, 113);
+            border-radius: 3px;
+            color:rgb(22, 21, 20);
+            margin: 14px;
+            padding: 1px;
+            text-decoration: none;
+        }
+        .class4{
+            position: absolute;
+          bottom:  -94px;
+          color: rgb(243, 236, 209);
+          font-size: 23px;
+          font-weight: bolder;
+        }
+
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-image: url('img/bg.jpg');
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="class1">
+            Food Good
+            <img src="img/logo1.jpg" alt="">
+        </div>
+        <div class="class2">
+            <ul type="none" class="navbar">
+                <li><a class="active" href="">Home</a></li>
+                <li><a href="">Listing</a></li>
+                <li><a href="">Categories</a></li>
+                <li><a href="">Pages</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Shop</a></li>
+                <li><a class="add" href="">+Add Listing</a></li>
+            </ul>
+        </div>
+        <div class="class3">
+            Discover the Best Services near You
+            <div>
+                <form action="">
+                <input type="text" placeholder="Enter our search" id="mySearch">
+                <input type="text" placeholder="Enter details">
+                <a id="id1"href="#">EXPLORE NOW</a>
+            </div>
+           <div class="last">
+            <a href="">Restaurant</a>
+            <a href="">Drink</a>
+            <a href="">Shopping</a>
+            <a href="">Beauty</a>
+            <a href="">More</a>
+           </div>
+            </form>
+        </div>
+    </header>
+    <div class="class4">
+        Developed By:-Kshitij Jaiswal
+    </div>
+</body>
+
+</html>
